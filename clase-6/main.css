@@ -1,0 +1,54 @@
+.contenedor {
+    background-color: #af0aafa6;
+    padding: 3px;
+    display: grid;
+    /*
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    */
+    /*
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    se usa para el espaciado entre, grid gap globaliza las 2*/
+    /*grid-gap: 10px;*/
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer"    
+    ;
+    justify-items: start;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+ header, main, aside, footer {
+     border: solid 2px red;
+ }
+
+ header {
+     grid-area: header;
+ }
+
+ nav {
+     grid-area: nav;
+ }
+
+ main {
+     grid-area: nav;
+ }
+
+ main {
+     grid-area: main;
+ }
+
+ aside {
+     grid-area: aside;
+     justify-self: end;
+     align-self: stretch;
+ }
+
+ footer {
+     grid-area: footer;
+ }

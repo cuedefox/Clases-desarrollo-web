@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    font-family: Alata, sans-serif;
+}
+
+header {
+    background-color: red;
+    height: 200px;
+    position: relative;
+    top: 0px;
+}
+
+header input {
+    position: absolute;
+    top: 140px;
+    left: 40%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.nav-items li {
+    display: inline-block;
+}
+
+.nav-items-icons {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+
+.nav-items-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-items-searchbar {
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.nav-items-searchbar li {
+    padding: 6px;
+}
+
+.nav-items-icons li {
+    padding: 5px;
+}
+
+.title-primary {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.title-secondary {
+    color: red;
+}
+
+p {
+    font-family: Secular One, sans-serif;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    color: red;
+}
+
+.ircal-arrow {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+
+.ircal-viewmoretext {
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    color: red;
+    text-decoration: none;
+    position: absolute;
+}
+
+#manga {
+    background-color: rgb(34, 78, 145);
+    color: white;
+}
+
+#cienciaficcion {
+    background-color: rgb(170, 52, 150);
+    color: white;
+}
+
+#juvenil {
+    background-color: rgb(62, 158, 62);
+    color: white;
+}
+
+#policial {
+    background-color: rgb(226, 216, 77);
+    color: white;
+}
+
+footer {
+    background-color: red;
+    position: relative;
+    height: 200px;
+}
+
+footer div li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div li a:hover {
+    color: grey;
+}
+footer div li {
+    list-style-type: none;
+}
+
+footer p {
+    color: white;
+}
+
+.nav-arrow {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+table {
+    border: solid 5px red;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+}
+
+table th {
+    border: solid 2px red;
+    height: 100px;
+    width: 200px;
+}
+
+table td {
+    margin: 20px;
+    border: solid 2px red;
+}
+
+.product-display .nav-arrow {
+    left: 5px;
+    bottom: 90px;
+}
+
+.product img {
+    width: 200px;
+    height: 250px;
+}
+
+table img {
+    width: 200px;
+    height: 250px;
+}
+
+.product {
+    display: inline-block;
+    border: solid 4px red;
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.product p {
+    position: relative;
+    left: 10px;
+}
+
+.generes-display {
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.generes-display div {
+    display: inline-block;
+    border: solid 10px rgb(122, 3, 3);
+    padding: 20px 20px 80px 20px;
+    margin: 0px;
+}
+
+.generes-display p {
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.product-display {
+    margin: 40px;
+    position: relative;
+    left: 20px;
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer p {
+    position: absolute;
+    bottom: 5px;
+    left: 470px;
+}
+
+#footer-nosotros {
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+#footer-contacto {
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.big-link {
+    font-size: 30px;
+}
+ .publicidad {
+     position: relative;
+     left: 30px;
+ }
+
+ .calendary {
+     margin-left: 120px;
+     position: relative;
+ }
+
+ .calendary h2 {
+     margin-bottom: 0px;
+     position: relative;
+ }
+
+ .login {
+     position: relative;
+     margin: 50px 100px;
+     padding: 50px;
+     border: solid 10px red;
+     border-radius: 40px;
+     background-image: url(img/loginback.jpg);
+     background-size: auto;
+     background-repeat: repeat;
+ }
+
+ .login .title-secondary {
+     margin-bottom: 20px;
+ }
+
+ .proximos-lanzamientos {
+     margin: 30px;
+ }
+
+ .proximos-lanzamientos .title-secondary {
+     margin-bottom: 20px;
+ }
+
+ .calendario-de-salidas {
+     margin: 30px;
+ }
+
+ .calendario-de-salidas .title-secondary {
+     margin-bottom: 40px;
+ }
+
+table th {
+     background-image: url(img/calendaryback.jpg);
+ }
+
+ .youtube-video {
+    width: 560px; 
+    height: 315px;
+ }
+
+ #ubicaciones {
+     margin: 30px;
+ }
+
+ #info {
+     margin: 30px;
+ }
+
+ h3 {
+     margin-bottom: 30px;
+ }
+
+ #nosotros {
+     margin: 20px 30px;
+ }
+
+ iframe {
+     margin-top: 20px;
+ }
+
+ #contacto {
+     margin: 20px 30px;
+ }
+
+ #atencion-cliente {
+     margin: 30px;
+ }
+
+ #form-trabajo {
+     margin: 30px;
+     border: solid 5px red;
+     border-radius: 20px;
+ }
+
+ #form-trabajo form {
+     margin-left: 30px;
+ }
+
+#form-trabajo form div {
+    margin: 10px;
+}
+
+ ul {
+    list-style-type: none
+ }
+
+ .carrito {
+     position: relative;
+     width: 900px;
+     height: 400px;
+     margin: 30px;
+     background-color: bisque;
+     border: solid 5px red;
+     border-radius: 20px;
+     margin-left: 200px;
+ }
+
+ .carrito h2 {
+     margin: 30px;
+ }
+
+ .carrito p {
+     position: absolute;
+     bottom: 15px;
+     left: 40px;
+ }
+
+span {
+    font-weight: bold;
+}

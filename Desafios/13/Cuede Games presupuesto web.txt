@@ -1,0 +1,8 @@
+- Se hara una pagina para un publisher de videojuegos orientada a los tipo rpg, al estar alojados en tiendas como google play
+o steam la pagina sera dedicada a brindar informacion y redirigir a las determinadas tiendas.
+- Se hara una web estatica con las paginas de: inicio, info sobre los proyectos, sobre nosotros y contacto.
+- Se utilizara en el desarrollo de la pagina html, css, javascript, framework bootstrap, fuentes pajarito, scss, node modules para el compilado y 
+git para tener organizado el proyecto.
+- Etapas de desarrollo: Investigacion, diseño y desarrollo.
+- Duracion del desarrollo 1 semana + 1 revision (3 dias) en caso de que lo pida el cliente.
+- Precio final 90 usd (45 usd de anticipo) y los 45 usd restantes al momento de publicar la pagina.

@@ -1,0 +1,22 @@
+main {
+    background-color: darkred;
+    
+    div {
+        background-color: $color-primary;
+    }
+
+    p {
+        color: #c1e205;
+        font-size: 1.5em;
+    
+        span {
+            color: aqua;
+    
+            &:hover {
+                color: green;
+                font-size: 2em;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(70, 95, 2);
+    font-style: italic;
+    font-family: Palette Mosaic, cursive, sans-serif;
+}
+
+.bordes {
+    background-color: blue;
+}
+
+p {
+    font: optional;
+    font-size: 35px;
+    font-family: Palette Mosaic;
+}
+
+p span {
+    color: chocolate;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#pabajo {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1 class="title title-primary">Circulo 9</h1>
+        <nav>
+            <ul>
+                <div class="nav-items nav-items-icons">
+                    <li><a href="usuario.html"><img src="../img/ico-usuario.png" alt="Icono del usuario"></a></li>
+                    <li><a href="carrito.html"><img src="../img/ico-carrito.png" alt="Icono del carrito de compras"></a></li>
+                </div>
+                <li><input id="buscador" type="search" placeholder="Buscar..."></li>
+                <div class="nav-items nav-items-searchbar">
+                    <li><a href="proximoslanzamientos.html">Proximos Lanzamientos</a></li>
+                    <li><a href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="title title-secondary" id="contacto">Contacto</h2>
+        <section id="atencion-cliente">
+            <h3 class="title title-secondary">Atencion al cliente</h3>
+            <p>Circulo 9 cuenta con distintas lineas de atencion que funcionan las 24hs del
+                dia.<br><span>Telefonos:</span> 5555-5555/5555-5551<br><span>Whatsapp:</span>
+                1155555555<br><span>Email:</span> atencionalcliente@circulo9.com</p>
+        </section>
+        <section id="form-trabajo">
+            <h3 class="title title-secondary">¡Trabaja con nosotros!</h3>
+            <p>¿Queres trabajar con nosotros?, completa el formulario de debajo y nos comunicaremos por email.</p>
+            <form>
+                <div>
+                    <p>Seleccione el puesto en el que desea trabajar.</p>
+                    <select name="puesto de trabajo" id="puesto de trabajo">
+                        <option value="desarrollador-web">Desarrollador Web</option>
+                        <option value="cajero">Cajero/a</option>
+                        <option value="repartidor">Repartidor</option>
+                        <option value="interprete">Interprete RI</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Ingrese nombre y apellido.</p>
+                    <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Ingrese nombre y apellido">
+                </div>
+                <div>
+                    <p>ingrese su e-mail.</p>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com">
+                </div>
+                <div>
+                    <p>Seleccione su genero.</p>
+                    <ul>
+                        <li>
+                            <label for="hombre">
+                                <input type="radio" name="genero" value="hombre" id="hombre" checked>hombre
+                            </label>
+                        </li>
+                        <li>
+                            <label for="mujer">
+                                <input type="radio" name="genero" value="mujer" id="mujer">Mujer
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Seleccione su nivel de ingles.</p>
+                    <ul>
+                        <li>
+                            <label for="no-se">
+                                <input type="radio" name="ingles" value="no-se" id="no-se" checked>No se ingles
+                            </label>
+                        </li>
+                        <li>
+                            <label for="basico">
+                                <input type="radio" name="ingles" value="basico" id="basico">Basico
+                            </label>
+                        </li>
+                        <li>
+                            <label for="intermedio">
+                                <input type="radio" name="ingles" value="intermedio" id="intermedio">Intermedio
+                            </label>
+                        </li>
+                        <li>
+                            <label for="fluido">
+                                <input type="radio" name="ingles" value="fluido" id="fluido">Fluido
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Seleccione sus disponibilidades horarias.</p>
+                    <ul>
+                        <li>
+                            <label for="dia">
+                                <input type="checkbox" name="horario-laboral" value="dia" id="dia">6:00 - 12:00
+                            </label>
+                        </li>
+                        <li>
+                            <label for="tarde">
+                                <input type="checkbox" name="horario-laboral" value="tarde" id="tarde">12:00 - 18:00
+                            </label>
+                        </li>
+                        <li>
+                            <label for="noche">
+                                <input type="checkbox" name="horario-laboral" value="noche" id="noche">18:00 - 00:00
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Añada una descripcion de su persona.</p>
+                    <textarea name="descripcionpersonal" id="descripcionpersonal" cols="30" rows="10"
+                        placeholder="añada una breve descripcion de su persona."></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <div id="footer-nosotros">
+                    <li><a href="nosotros.html" class="big-link">Nosotros</a></li>
+                    <li><a href="nosotros.html#ubicaciones">Nuestras Ubicaciones</a></li>
+                    <li><a href="nosotros.html#info">Mas info</a></li>
+                </div>
+                <div id="footer-contacto">
+                    <li><a href="contacto.html" class="big-link">Contacto</a></li>
+                    <li><a href="contacto.html#atencion-cliente">Atencion al cliente</a></li>
+                    <li><a href="contacto.html#form-trabajo">Trabaja con nosotros</a></li>
+                </div>
+            </ul>
+            <p>© Circulo 9 todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
