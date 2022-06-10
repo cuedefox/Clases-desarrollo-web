@@ -1,0 +1,21 @@
+.nombrenome {
+    @if $nombre-rodro ==Rodrigo {
+    background-color: white;
+    }
+}
+
+.aveces {
+    @if $nombre-rodro ==Rodrigo {
+        color: aqua;
+    } @else if $nombre-rodro !=Rodrigo {
+        color: green;
+    }
+}
+
+.aveces2 {
+    @if $nombre-rodro ==Raul {
+        color: aqua;
+    } @else if $nombre-rodro !=Raul {
+        color: green;
+    }
+}

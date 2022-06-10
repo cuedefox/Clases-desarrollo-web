@@ -1,0 +1,10 @@
+@each $nombre in $lista-nombres {
+    .pibe-#{$nombre} {
+    }
+}
+
+@each $color in $lsta-colores {
+    .color-#{$color} {
+        background-color: $color;
+    }
+}

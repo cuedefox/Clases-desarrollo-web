@@ -1,0 +1,11 @@
+.boton {
+    border: solid 2px blue;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.boton-primario {
+    @extend .boton;
+    background-color: red;
+}

@@ -1,0 +1,19 @@
+@mixin size($alto, $ancho, $margin) {
+    height: $alto;
+    width: $ancho;
+    margin: $margin;
+}
+
+.pruebamixinosa {
+    @include size(1em, 2em, 1em)
+}
+
+@mixin size2 {
+    height: 3em;
+    width: 2em;
+    margin: 2em 1em;
+}
+
+.pruebamixinosa2 {
+    @include size2
+}

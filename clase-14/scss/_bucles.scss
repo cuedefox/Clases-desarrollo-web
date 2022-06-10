@@ -1,0 +1,11 @@
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 24em / $i;
+    }
+}
+
+@for $i from 1 through 5 {
+    .clase#{$i} {
+        padding: $i*4px;
+    }
+}
